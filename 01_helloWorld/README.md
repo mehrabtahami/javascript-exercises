@@ -6,10 +6,14 @@ The main purpose of this exercise is to walk you through the process of running 
 
 In this directory you will find 2 other files:
 
+<<<<<<< HEAD
 1. `helloWorld.js`
 2. `helloWorld.spec.js`
 
 This setup should be the same for all of the exercises. The plain javascript file is where you'll write your code, and the `spec` file contains the tests that verify your code is functional.
+=======
+This setup should be similar for all of the exercises. The plain javascript file is where you'll write your code, and the `spec` file contains the tests that verify your code is functional.
+>>>>>>> 61c3de9f6131405fc9f8ecf9b9105489ce3bf703
 
 Let's look at the spec file first:
 
@@ -38,7 +42,10 @@ const helloWorld = function () {
 
 module.exports = helloWorld;
 ```
+<<<<<<< HEAD
 
+=======
+>>>>>>> 61c3de9f6131405fc9f8ecf9b9105489ce3bf703
 In this file we have a simple function called helloWorld that returns an empty string... which is exactly what our test was complaining about. The `module.exports` on the last line is how we export the function so that it can be imported with `require()` in the spec file.
 
 Go ahead and see if you can make the test pass by editing the return value of the function, and then running the test file again.
@@ -55,4 +62,8 @@ const helloWorld = function () {
 module.exports = helloWorld;
 ```
 
+<<<<<<< HEAD
 For the most part we've set up these tests in such a way that you only have to write the code being tested. You should not have to worry about importing or exporting anything at this stage.. so just work around that bit of the code and write what it takes to make them pass!
+=======
+For the most part we've set up these tests in such a way that you only have to update or write the code being tested. You should not have to worry about importing or exporting anything at this stage.. so just work around that bit of the code and write what it takes to make them pass!
+>>>>>>> 61c3de9f6131405fc9f8ecf9b9105489ce3bf703
